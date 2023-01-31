@@ -1,0 +1,7 @@
+.cache
+*.bkp
+dist
+node_modules/
+demo/
+tags
+coverage/

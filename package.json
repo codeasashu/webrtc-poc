@@ -1,0 +1,21 @@
+{
+  "name": "sip-demo",
+  "version": "1.0.0",
+  "description": "SIP demo",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test",
+    "build": "esbuild main.ts --bundle --outfile=dist/main.js",
+    "dev": "esbuild main.ts --bundle --watch --outfile=dist/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.17.4",
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3"
+  },
+  "dependencies": {
+    "sip.js": "^0.21.2"
+  }
+}

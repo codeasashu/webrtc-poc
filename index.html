@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta charset="utf-8" />
+  <title>SIP.js Demo</title>
+</head>
+
+<body>
+  <h2>Demo: Audio Call - Outbound</h2>
+
+  <ol>
+    <li><label for="server">Server: <input id="server" name="server" value="wss://voip.myoperator.dev:8061" /></li>
+    <li><label for="caller_username">Caller Username <input id="caller_username" name="caller_username"
+          value="ashutosh@voip.myoperator.dev" /></label></li>
+    <li><label for="caller_password">Caller Password <input id="caller_password" name="caller_password"
+          value="123456" /></label></li>
+    <!-- <li><label for="callee">Callee <input id="callee" name="callee" /></label></li> -->
+  </ol>
+  <button id="connect">Connect</button>
+
+
+  <!-- <audio id="remoteAudio" controls> -->
+  <!--   <p>Your browser doesn't support HTML5 audio.</p> -->
+  <!-- </audio> -->
+
+
+  <p>
+    While the call is established, DTMF may be sent using the following "keypad"...
+  </p>
+  <script src="./dist/main.js"></script>
+</body>
+
+</html>
